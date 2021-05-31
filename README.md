@@ -1,2 +1,3 @@
 # kafka-trial
-Kafka Learning
+
+This project is for kafka learning purposes. Does not include production grade code. 
