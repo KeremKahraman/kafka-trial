@@ -32,6 +32,9 @@ public class ProducerWithCallBack {
                         "Offset: " + recordMetadata.offset() + "\n" +
                         "Timestamp: " + recordMetadata.timestamp());
             }
+            else {
+                logger.error("Error while producing : " , e);
+            }
         });
         kafkaProducer.flush();
         kafkaProducer.close();
